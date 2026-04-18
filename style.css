@@ -4,6 +4,8 @@
             background: #111;
             color: white;
             text-align: center;
+             font-family:  "ans-serif";
+     
         }
 
         input {
@@ -34,10 +36,13 @@
             padding: 10px;
             border-radius: 10px;
             width: 200px;
+             font-family: "Times New Roman";
         }
 
         img {
             width: 100%;
             border-radius: 10px;
         }
-    
+       
+        
+      
