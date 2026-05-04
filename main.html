@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<body>
-    <link rel="stylesheet" href="style.css">
+<html lang="uk">
+<head>
     <meta charset="UTF-8">
-    <title>Пошук фільмів</title>
-    
+    <title>Пошук</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav>
-            <a href="index.html">Головна</a>
-            <a href="info.html">Інформація про додаток</a>
-            <a href="main.html">Пошук фільмів</a>
-            <a href="about.html">Інформація про розробників</a>
-        </nav>
+
+<header>
+    <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="info.html">Інформація</a>
+        <a href="main.html">Пошук</a>
+        <a href="about.html">Розробники</a>
+    </nav>
+</header>
+
+<main>
+
 <h1>🎬 Пошук фільмів</h1>
-<script src="main.js"></script>
-<input type="text" id="search" placeholder="Введи назву фільму">
-<button onclick="searchMovies()">Шукати</button>
+
+<div class="card">
+    <input type="text" id="search" placeholder="Введи назву">
+    <button id="searchBtn">Шукати</button>
+</div>
 
 <div class="movies" id="movies"></div>
 
+</main>
+
 <script src="main.js"></script>
-</body>
-</html>
+
 </body>
 </html>

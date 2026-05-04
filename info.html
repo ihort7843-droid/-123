@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <title>Інформація</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <link rel="stylesheet" href="style.css">
- <nav>
-            <a href="index.html">Головна</a>
-            <a href="info.html">Інформація про додаток</a>
-            <a href="main.html">Пошук фільмів</a>
-            <a href="about.html">Інформація про розробників</a>
-        </nav>
-        
 
-    <p class="p">
-        🎬 Ця сторінка призначена для пошуку фільмів.
-        Користувач може ввести назву фільму у поле нижче
-        та натиснути кнопку "Пошук", щоб знайти потрібний фільм.
+<header>
+    <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="info.html">Інформація</a>
+        <a href="main.html">Пошук</a>
+        <a href="about.html">Розробники</a>
+    </nav>
+</header>
 
+<main>
+
+<div class="card">
+    <h2>Про додаток</h2>
+    <p>
+        Movie Finder — це простий навчальний проєкт, який використовує API для пошуку фільмів.
     </p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVfxUx84v2NrRbACuFmQQwGsli_v_10a9kaw&s" alt="">
+</div>
 
-    
+<div class="card">
+    <h2>Як це працює?</h2>
+    <p>
+        Коли ти вводиш назву фільму, додаток звертається до API
+        і отримує список результатів.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Навіщо це?</h2>
+    <p>
+        Проєкт показує, як працює JavaScript з API, і як можна
+        створити власний веб-сервіс.
+    </p>
+</div>
+
+</main>
+
 </body>
-
 </html>

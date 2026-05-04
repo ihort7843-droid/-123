@@ -1,62 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #e5e5e5;
+    margin: 0;
+}
 
-        body {
-            font-family: ans-serif;
-            background: #111;
-            color: rgb(225, 223, 217);
-            text-align: center;
-     font-size: 34;
-        }
+/* НАВІГАЦІЯ */
+.nav {
+    background: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid #222;
+}
 
-        input {
-            padding: 10px;
-            width: 250px;
-            border-radius: 10px;
-            border: none;
-        }
-
-        button {
-            padding: 10px;
-            border-radius: 10px;
-            border: none;
-            background: orange;
-            cursor: pointer;
-        }
-
-        .movies {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .movie {
-            background: #222;
-            margin: 10px;
-            padding: 10px;
-            border-radius: 10px;
-            width: 200px;
-             font-family: "Times New Roman";
-        }
-
-        img {
-            width: 100%;
-            border-radius: 10px;
-        }
-.nav-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #4CAF50;
-    color: white;
+.nav a {
+    color: #e5e5e5;
     text-decoration: none;
-    border-radius: 8px;
-    font-size: 16px;
-    transition: 0.3s;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.2s;
 }
 
-.nav-btn:hover {
-    background-color: #45a049;
+.nav a:hover {
+    background: #222;
 }
-       
-        
-      
+
+/* ОСНОВА */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* КАРТКИ */
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #222;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* ТЕКСТ */
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    color: #bbb;
+}
+
+/* ПОШУК */
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background: orange;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* ФІЛЬМИ */
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.movies div {
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid #222;
+}
+
+.movies img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* РОЗРОБНИКИ */
+.dev-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dev-card {
+    background: #1a1a1a;
+    border: 1px solid #222;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.dev-card h2 {
+    margin-top: 0;
+}
+
+.dev-role {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.dev-card ul {
+    padding-left: 18px;
+}
